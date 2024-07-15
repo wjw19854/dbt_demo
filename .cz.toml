@@ -2,6 +2,19 @@
 name = "cz_conventional_commits"
 tag_format = "$version"
 version_scheme = "pep440"
-version = "0.2.0"
+version = "0.1.5"
 update_changelog_on_bump = true
 major_version_zero = true
+
+[settings]
+changelog_title = "# Changelog"
+changelog_intro = "" # Optional introduction for CHANGELOG.md
+issue_tracker_url = "https://github.com/wjw19854/dbt_demo/issues/"
+commit_url = "https://github.com/wjw19854/dbt_demo/commit/"
+merge_request_url = "https://github.com/wjw19854/dbt_demo/pull/"
+tag_url = "https://github.com/wjw19854/yourrepository/dbt_demo/tag/"
+
+[template]
+issue_id_pattern = "(#\\d+)"
+header_template = "{{message}} ~{{author}}"
+issues_link_template = "- [{{issue_id}}]({{reference}})"
