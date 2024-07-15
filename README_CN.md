@@ -21,8 +21,13 @@
 
 请尝试运行以下命令：
  ```
+ # 生成测试数据
+ tox -e jafgen
+ # 设置开发环境
  tox -e dev
  ```
+
+ 将项目目录下 .tox 目录下的 dev 目录作为 IDE 的 python 解释器
 
 ### dbt官方资源:
 - 在文档中了解更多关于 dbt 的信息 [dbt文档](https://docs.getdbt.com/docs/introduction)

@@ -22,8 +22,13 @@ The demonstrated functionalities mainly include the following parts:
 Please try running the following command:
 
 ```
+# Generate test data
+tox -e jafgen
+# Set up development environment
 tox -e dev
 ```
+
+Set the dev directory under the .tox directory in the project directory as the Python interpreter for the IDE.
 
 ### Official dbt Resources:
 - Learn more about dbt in the documentation [dbt Docs](https://docs.getdbt.com/docs/introduction)
