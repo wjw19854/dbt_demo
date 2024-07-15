@@ -1,0 +1,11 @@
+[tool.sqlfmt]
+exclude=["target/**/*", "dbt_packages/**/*", ".tox/**/*"]
+[project]
+name = "jafshop_wjw"
+description = "A dbt demo project"
+authors = [
+    {name = "wjw19854", email = "wjw19854@163.com"},
+]
+[tool.commitizen]
+version = "0.1.4"
+tag_format = "$version"
