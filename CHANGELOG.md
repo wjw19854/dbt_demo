@@ -1,3 +1,9 @@
+## 0.1.5 (2024-07-15)
+
+### Fix
+
+- **version**: redo the init of commitizen
+
 ## 0.1.4 (2024-07-15)
 
 ### Fix
