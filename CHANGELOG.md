@@ -1,3 +1,9 @@
+## 0.4.0 (2024-07-15)
+
+### Feat
+
+- **dbt**: add model and source for customer
+
 ## 0.3.0 (2024-07-15)
 
 ### Fix
