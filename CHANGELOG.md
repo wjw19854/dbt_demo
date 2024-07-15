@@ -1,5 +1,11 @@
 ## 0.2.0 (2024-07-15)
 
+### Fix
+
+- **changelog**: add link to changelog
+
+## 0.2.0 (2024-07-15)
+
 ### Feat
 
 - **dbt**: add dbt_project.yml
